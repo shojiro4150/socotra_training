@@ -1,0 +1,48 @@
+{
+  "cancellationTypes": [
+    {
+      "name": "customer_declined",
+      "title": "Customer Declined",
+      "documents": [],
+      "reinstatement":
+      {
+        "defaultDeadlineDays": 7,
+        "documents": []
+      },
+      "cancellationCategories": [ "customer_initiated", "general" ]
+    },
+    {
+      "name": "no_longer_needed",
+      "title": "No Longer Needed",
+      "documents": [],
+      "reinstatement":
+      {
+        "defaultDeadlineDays": 14,
+        "documents": []
+      },
+      "cancellationCategories": [ "customer_initiated", "general" ]
+    },
+    {
+      "name": "fraudulent_application",
+      "title": "Fraudulent Application",
+      "documents": [],
+      "reinstatement":
+      {
+        "defaultDeadlineDays": 0,
+        "documents": []
+      },
+      "cancellationCategories": [ "carrier_invoked", "general" ]
+    },
+    {
+      "name": "audit_failed",
+      "title": "Audit Failed",
+      "documents": [],
+      "reinstatement":
+      {
+        "defaultDeadlineDays": 30,
+        "documents": []
+      },
+      "cancellationCategories": [ "carrier_invoked", "general" ]
+    }
+  ]
+}
